@@ -1,0 +1,44 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configs de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ambientes virtuais Python
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs e relatórios do Robot
+log.html
+report.html
+output.xml
+debug.log
+rebot.log
+rebot.xml
+
+# Pastas de relatórios (caso você gere separados)
+results/
+reports/
+allure-results/
+allure-report/
+
+# Cobertura de código
+coverage/
+*.coverage
+*.lcov
+
+# Configs sensíveis
+*.env
+.env.*
+
+# Build/compilação
+dist/
+build/
