@@ -1,0 +1,2 @@
+# ELEMENTOS BUTTON
+HOME_BUTTON_REGISTER: xpath=//a[text()='Register']

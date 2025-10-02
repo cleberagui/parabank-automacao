@@ -22,15 +22,42 @@ Com este projeto, é possível:
 ## 📂 Estrutura do projeto
 
 automacao-parabank/
-│-- Locators/
-│-- Pages/
-│-- Results/
-│-- Steps/
-│-- Tests/
-│-- Utils/
-│-- .gitignore
-│-- README.md
-│-- requirements.txt
+│
+├── Locators/                        # Apenas arquivos de locators (.yml ou .robot)
+│   ├── cadastro_locators.yml
+│   └── home_locators.yml
+│   
+│
+├── Pages/                           # Ações (Page Objects) que usam os locators
+│   ├── cadastro_page.robot
+│   └── home_page.robot
+│  
+│
+├── Results/                         # Saída de execução dos testes
+│   ├── log.html
+│   ├── output.xml
+│   └── report.html
+│
+├── Steps/                           # Mapeamento BDD (steps Gherkin -> keywords)
+│   └── cadastro_steps.robot
+│   
+│   
+│
+├── Tests/                           # Casos de teste em BDD
+│   └── cadastro.robot
+│   
+│   
+│
+├── Utils/                           # Recursos auxiliares e bibliotecas
+│   ├── ogerar_dados_fake.robot
+│   ├── open_browser.robot
+│   └── resource.robot
+│   
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+
 
 ---
 
@@ -57,7 +84,7 @@ pip install -r requirements.txt
 robot -d results tests/
 
 * Executar apenas um arquivo de teste:
-robot -d results tests/login.robot
+robot -d results tests/cadastro.robot
 
 * Após a execução, os relatórios estarão disponíveis em:
 results/log.html

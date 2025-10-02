@@ -24,7 +24,7 @@ debug.log
 rebot.log
 rebot.xml
 
-# Pastas de relatórios (caso você gere separados)
+# Pastas de relatórios 
 results/
 reports/
 allure-results/
@@ -42,3 +42,8 @@ coverage/
 # Build/compilação
 dist/
 build/
+
+# Ambiente virtual
+venv/
+.env/
+
