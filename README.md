@@ -39,16 +39,19 @@ automacao-parabank/ │ ├── Locators/ # Apenas arquivos de locators (.yml)
 ```bash
 git clone https://github.com/seu-usuario/automacao-parabank.git
 cd automacao-parabank
-
+```
 
 2. Crie um ambiente virtual (opcional, mas recomendado):
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
+```
 
 3. Instale as dependências:
+```bash
 pip install -r requirements.txt
-
+```
   ---
 
 ## ▶️ Como executar os testes
@@ -69,7 +72,7 @@ results/output.xml
 * Criar novos cenários cobrindo mais funcionalidades do sistema.
 * Configurar integração contínua (CI/CD) para execução automática dos testes.
 * Gerar relatórios avançados com Allure Reports.
-```
+
   ---
 
 ## 👨‍💻 Autor
