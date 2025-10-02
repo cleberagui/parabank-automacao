@@ -69,7 +69,7 @@ results/output.xml
 * Criar novos cenários cobrindo mais funcionalidades do sistema.
 * Configurar integração contínua (CI/CD) para execução automática dos testes.
 * Gerar relatórios avançados com Allure Reports.
-``
+```
   ---
 
 ## 👨‍💻 Autor
