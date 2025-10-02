@@ -42,8 +42,3 @@ coverage/
 # Build/compilação
 dist/
 build/
-
-# Ambiente virtual
-venv/
-.env/
-
