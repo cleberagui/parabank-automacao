@@ -1,7 +1,8 @@
 *** Settings ***
 
 Resource            ../Utils/open_browser.robot
-Resource            ../Steps//cadastro_steps.robot
+Resource            ../Steps/cadastro_steps.robot
+Resource            ../Steps/home_steps.robot
 
 ##Execução antes de iniciar o teste
 Test Setup          Abrir o navegador

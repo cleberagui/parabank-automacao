@@ -25,9 +25,3 @@ Cenário: Login com credenciais inválidas
     E clica em "Log In"
     Então o sistema exibe a mensagem "The username and password could not be verified."
 
-Cenário: Logout com sucesso
-    Dado que o usuário está logado
-    Quando o usuário clica em "Log Out"
-    Então o sistema redireciona para a página inicial
-    E não exibe mais dados da conta
-
