@@ -16,3 +16,4 @@ CADASTRO_BUTTON_REGISTER: css=input[value='Register']
 
 #MESSAGE
 ACCOUNT_CREATED_MESSAGE:  Xpath=//p[text()='Your account was created successfully. You are now logged in.']
+FIRST_NAME_IS_REQUIRED_MESSAGE: id=customer.firstName.errors
