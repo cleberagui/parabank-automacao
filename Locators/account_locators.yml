@@ -1,0 +1,7 @@
+#ELEMENTOS H2
+ACCOUNT_DESCRIPTION_OVERVIEW:  xpath=//h1[@class='title' and normalize-space(string())='Accounts Overview']
+
+
+#MESSAGE
+
+ACCOUNT_NAME_LOGGED:  xpath=//p[@class='smallText']

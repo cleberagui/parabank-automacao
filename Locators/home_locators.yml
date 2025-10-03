@@ -1,2 +1,17 @@
 # ELEMENTOS BUTTON
 HOME_BUTTON_REGISTER: xpath=//a[text()='Register']
+HOME_BUTTON_LOG_IN: css:input[value='Log In']
+
+#ELEMENTOS H2
+
+HOME_DESCRIPTION_LOGIN:  xpath=//h2[text()='Customer Login']
+
+
+#ELEMENTOS INPUT
+
+HOME_INPUT_USERNAME:  css=input[name='username']
+HOME_INPUT_PASSWORD:  css=input[name='password']
+
+#MESSAGE
+
+ACCOUNT_NAME_LOGGED_PASSWORD_INCORRECT: //p[@class='error' and normalize-space(string())='The username and password could not be verified.']

@@ -1,13 +1,9 @@
 *** Settings ***
-Resource    ../Pages/home_page.robot
 Resource    ../Pages/cadastro_page.robot
 
 
 
-
 *** Keywords ***
-Dado que o usuário está na página de registro
-    Clicar em Register
 Quando preenche todos os campos obrigatórios com informações válidas
     Preencher Cadastro Com Faker
 E clica em "Register"
